@@ -10,4 +10,4 @@ data List a = Cons a (List a)
 --	else a : []
 
 reverseList (Cons x xs) = x : reverseList xs
-reverseList Nil			= []
+reverseList Nil		= []
